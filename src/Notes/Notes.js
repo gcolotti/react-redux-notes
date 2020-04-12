@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import NotesForm from './NotesForm';
-import AllNotes from './AllNotes';
+import NotesForm from './WithHooks/NotesForm';
+import AllNotes from './WithHooks/AllNotes';
 
 export default class Notes extends Component {
   render() {
